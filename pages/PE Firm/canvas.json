@@ -37,27 +37,6 @@
               "animateLoading": true,
               "dynamicBindingPathList": [
                 {
-                  "key": "primaryColumns.step.computedValue"
-                },
-                {
-                  "key": "primaryColumns.task.computedValue"
-                },
-                {
-                  "key": "primaryColumns.status.computedValue"
-                },
-                {
-                  "key": "primaryColumns.action.computedValue"
-                },
-                {
-                  "key": "primaryColumns.action.buttonColor"
-                },
-                {
-                  "key": "primaryColumns.action.borderRadius"
-                },
-                {
-                  "key": "primaryColumns.action.boxShadow"
-                },
-                {
                   "key": "accentColor"
                 },
                 {
@@ -65,6 +44,15 @@
                 },
                 {
                   "key": "boxShadow"
+                },
+                {
+                  "key": "tableData"
+                },
+                {
+                  "key": "primaryColumns.company_name.computedValue"
+                },
+                {
+                  "key": "primaryColumns.company_state.computedValue"
                 }
               ],
               "needsHeightForContent": true,
@@ -102,24 +90,22 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1681683386356,
+              "columnUpdatedAt": 1681687482883,
               "defaultSelectedRowIndices": [
                 0
               ],
               "widgetName": "PE_Firm_pc",
               "defaultPageSize": 0,
               "columnOrder": [
-                "step",
-                "task",
-                "status",
-                "action"
+                "company_name",
+                "company_state"
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
               "bottomRow": 33,
               "columnWidthMap": {
                 "task": 245,
-                "step": 70,
+                "step": 216,
                 "status": 85
               },
               "parentRowSpace": 10,
@@ -128,127 +114,73 @@
               "dynamicTriggerPathList": [],
               "borderWidth": "1",
               "primaryColumns": {
-                "step": {
+                "company_name": {
+                  "allowCellWrapping": false,
                   "index": 0,
                   "width": 150,
-                  "id": "step",
-                  "originalId": "step",
-                  "alias": "step",
+                  "originalId": "company_name",
+                  "id": "company_name",
+                  "alias": "company_name",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
+                  "textColor": "",
                   "textSize": "0.875rem",
+                  "fontStyle": "",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
-                  "isCellVisible": true,
+                  "isDisabled": false,
                   "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
                   "isDerived": false,
                   "label": "company_name",
-                  "computedValue": "{{PE_Firm_pc.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"step\"]))}}",
-                  "validation": {},
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{PE_Firm_pc.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"company_name\"]))}}",
                   "sticky": "",
-                  "labelColor": "#FFFFFF"
+                  "validation": {},
+                  "cellBackground": ""
                 },
-                "task": {
+                "company_state": {
+                  "allowCellWrapping": false,
                   "index": 1,
                   "width": 150,
-                  "id": "task",
-                  "originalId": "task",
-                  "alias": "task",
+                  "originalId": "company_state",
+                  "id": "company_state",
+                  "alias": "company_state",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
+                  "textColor": "",
                   "textSize": "0.875rem",
+                  "fontStyle": "",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
-                  "isCellVisible": true,
+                  "isDisabled": false,
                   "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
                   "isDerived": false,
                   "label": "company_state",
-                  "computedValue": "{{PE_Firm_pc.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"task\"]))}}",
-                  "validation": {},
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{PE_Firm_pc.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"company_state\"]))}}",
                   "sticky": "",
-                  "labelColor": "#FFFFFF"
-                },
-                "status": {
-                  "index": 2,
-                  "width": 150,
-                  "id": "status",
-                  "originalId": "status",
-                  "alias": "status",
-                  "horizontalAlignment": "LEFT",
-                  "verticalAlignment": "CENTER",
-                  "columnType": "text",
-                  "textSize": "0.875rem",
-                  "enableFilter": true,
-                  "enableSort": true,
-                  "isVisible": false,
-                  "isCellVisible": true,
-                  "isCellEditable": false,
-                  "isDerived": false,
-                  "label": "status",
-                  "computedValue": "{{PE_Firm_pc.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"status\"]))}}",
                   "validation": {},
-                  "sticky": "",
-                  "labelColor": "#FFFFFF"
-                },
-                "action": {
-                  "index": 3,
-                  "width": 150,
-                  "id": "action",
-                  "originalId": "action",
-                  "alias": "action",
-                  "horizontalAlignment": "LEFT",
-                  "verticalAlignment": "CENTER",
-                  "columnType": "button",
-                  "textSize": "0.875rem",
-                  "enableFilter": true,
-                  "enableSort": true,
-                  "isVisible": false,
-                  "isCellVisible": true,
-                  "isCellEditable": false,
-                  "isDisabled": false,
-                  "isDerived": false,
-                  "label": "action",
-                  "onClick": "{{currentRow.step === '#1' ? showAlert('Done', 'success') : currentRow.step === '#2' ? navigateTo('https://docs.appsmith.com/core-concepts/connecting-to-data-sources/querying-a-database',undefined,'NEW_WINDOW') : navigateTo('https://docs.appsmith.com/core-concepts/displaying-data-read/display-data-tables',undefined,'NEW_WINDOW')}}",
-                  "computedValue": "{{PE_Firm_pc.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"action\"]))}}",
-                  "validation": {},
-                  "sticky": "",
-                  "labelColor": "#FFFFFF",
-                  "buttonColor": "{{PE_Firm_pc.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.colors.primaryColor))}}",
-                  "borderRadius": "{{PE_Firm_pc.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
-                  "boxShadow": "{{PE_Firm_pc.processedTableData.map((currentRow, currentIndex) => ( 'none'))}}"
+                  "cellBackground": ""
                 }
               },
               "key": "jidzq8li9f",
               "canFreezeColumn": true,
               "isDeprecated": false,
-              "rightColumn": 58,
+              "rightColumn": 38,
               "textSize": "0.875rem",
               "widgetId": "s6xfugxco2",
               "minWidth": 450,
-              "tableData": [
-                {
-                  "step": "#1",
-                  "task": "Drop a table",
-                  "status": "✅",
-                  "action": ""
-                },
-                {
-                  "step": "#2",
-                  "task": "Create a query fetch_users with the Mock DB",
-                  "status": "--",
-                  "action": ""
-                },
-                {
-                  "step": "#3",
-                  "task": "Bind the query using => fetch_users.data",
-                  "status": "--",
-                  "action": ""
-                }
-              ],
+              "tableData": "{{get_private_companies.data}}",
               "label": "Data",
               "searchKey": "",
               "parentId": "0",
@@ -261,7 +193,18 @@
             }
           ]
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "PE Firm_get_private_companies",
+              "name": "get_private_companies",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "PE Firm",
