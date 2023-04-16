@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page2",
+    "pageId": "PE Firm 2",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -59,7 +59,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page2_company_deets",
+  "id": "PE Firm 2_company_deets",
   "deleted": false,
   "gitSyncId": "643c2d697ded210611adfd63_643c7c37bbf82b00510b8870"
 }
