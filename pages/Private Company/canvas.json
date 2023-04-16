@@ -56,9 +56,6 @@
                 },
                 {
                   "key": "primaryColumns.pe_state.computedValue"
-                },
-                {
-                  "key": "primaryColumns.pe_id.computedValue"
                 }
               ],
               "needsHeightForContent": true,
@@ -96,7 +93,7 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1681679450866,
+              "columnUpdatedAt": 1681680605102,
               "defaultSelectedRowIndices": [
                 0
               ],
@@ -105,8 +102,7 @@
               "columnOrder": [
                 "aum",
                 "pe_name",
-                "pe_state",
-                "pe_id"
+                "pe_state"
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
@@ -205,35 +201,6 @@
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"pe_state\"]))}}",
-                  "sticky": "",
-                  "validation": {},
-                  "cellBackground": ""
-                },
-                "pe_id": {
-                  "allowCellWrapping": false,
-                  "index": 1,
-                  "width": 150,
-                  "originalId": "pe_id",
-                  "id": "pe_id",
-                  "alias": "pe_id",
-                  "horizontalAlignment": "LEFT",
-                  "verticalAlignment": "CENTER",
-                  "columnType": "number",
-                  "textColor": "",
-                  "textSize": "0.875rem",
-                  "fontStyle": "",
-                  "enableFilter": true,
-                  "enableSort": true,
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "isCellEditable": false,
-                  "isEditable": false,
-                  "isCellVisible": true,
-                  "isDerived": false,
-                  "label": "pe_id",
-                  "isSaveVisible": true,
-                  "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"pe_id\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
