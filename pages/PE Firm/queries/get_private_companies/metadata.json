@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_pe_firms",
+    "name": "get_private_companies",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/pc/pefirm"
+        "url": "web:4000/pe/private_company"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Private Company",
+    "pageId": "PE Firm",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -41,7 +41,7 @@
         "apiContentType": "application/json"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -52,7 +52,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Private Company_get_pe_firms",
+  "id": "PE Firm_get_private_companies",
   "deleted": false,
-  "gitSyncId": "643c2c2b8593cd6034a110a3_643c3dff14e5cc5be075fcb1"
+  "gitSyncId": "643c2d697ded210611adfd63_643c72d7bbf82b00510b8868"
 }
