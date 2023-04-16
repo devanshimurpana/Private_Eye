@@ -7,6 +7,10 @@
     {
       "id": "Private Company",
       "isDefault": false
+    },
+    {
+      "id": "PE Firm",
+      "isDefault": false
     }
   ],
   "viewMode": false,
