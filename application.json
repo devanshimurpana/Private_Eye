@@ -19,6 +19,10 @@
     {
       "id": "Private Company Asks",
       "isDefault": false
+    },
+    {
+      "id": "Bid Page",
+      "isDefault": false
     }
   ],
   "viewMode": false,
