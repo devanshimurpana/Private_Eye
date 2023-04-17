@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_pe_firms",
+    "name": "add_new_company",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/pc/pefirm"
+        "url": "web:4000/pc/company"
       },
       "invalids": [],
       "messages": [],
@@ -29,9 +29,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "",
+      "body": "{{new_company_form.data}}",
       "bodyFormData": [],
-      "httpMethod": "GET",
+      "httpMethod": "POST",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -42,18 +42,24 @@
         "apiContentType": "application/json"
       }
     },
-    "executeOnLoad": true,
-    "dynamicBindingPathList": [],
+    "executeOnLoad": false,
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "new_company_form.data"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Private Company_get_pe_firms",
+  "id": "Private Company_add_new_company",
   "deleted": false,
-  "gitSyncId": "643c2c2b8593cd6034a110a3_643c3dff14e5cc5be075fcb1"
+  "gitSyncId": "643c2d697ded210611adfd63_643c6875366f253fe63c3e2d"
 }

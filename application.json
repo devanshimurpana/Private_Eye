@@ -1,11 +1,23 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Home",
       "isDefault": true
     },
     {
       "id": "Private Company",
+      "isDefault": false
+    },
+    {
+      "id": "PE Firm",
+      "isDefault": false
+    },
+    {
+      "id": "Private Company 2",
+      "isDefault": false
+    },
+    {
+      "id": "Private Company Asks",
       "isDefault": false
     }
   ],
@@ -14,6 +26,12 @@
   "unreadCommentThreads": 0,
   "color": "#FFDEDE",
   "icon": "cloud",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "publishedAppLayout": {
+    "type": "DESKTOP"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
