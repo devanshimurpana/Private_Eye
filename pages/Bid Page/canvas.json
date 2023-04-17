@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 730,
           "containerStyle": "none",
           "snapRows": 86,
           "parentRowSpace": 1,
@@ -30,7 +30,7 @@
               "borderColor": "#E0DEDE",
               "isVisibleDownload": true,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-              "topRow": 3,
+              "topRow": 45,
               "isSortable": true,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
@@ -118,7 +118,7 @@
                 }
               ],
               "displayName": "Table",
-              "bottomRow": 31,
+              "bottomRow": 73,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
