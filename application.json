@@ -23,6 +23,10 @@
     {
       "id": "Bid Page",
       "isDefault": false
+    },
+    {
+      "id": "Technician",
+      "isDefault": false
     }
   ],
   "viewMode": false,
