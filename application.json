@@ -35,7 +35,7 @@
   "color": "#FFDEDE",
   "icon": "cloud",
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
   "publishedAppLayout": {
     "type": "DESKTOP"
