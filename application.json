@@ -27,6 +27,10 @@
     {
       "id": "Technician",
       "isDefault": false
+    },
+    {
+      "id": "Top 5",
+      "isDefault": false
     }
   ],
   "viewMode": false,

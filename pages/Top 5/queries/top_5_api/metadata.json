@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_deal",
+    "name": "top_5_api",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/pe/get_deals"
+        "url": "web:4000/t/top_5_page"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Bid Page",
+    "pageId": "Top 5",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -47,7 +47,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Bid Page_get_deal",
+  "id": "Top 5_top_5_api",
   "deleted": false,
-  "gitSyncId": "643c2f5ffcc29176322bc44b_643d787d1cfd0266c794957c"
+  "gitSyncId": "643c2d697ded210611adfd63_643d9d94bbf82b00510b88fd"
 }
