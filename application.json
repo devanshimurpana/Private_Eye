@@ -31,6 +31,10 @@
     {
       "id": "Top 5",
       "isDefault": false
+    },
+    {
+      "id": "Private Company Bids",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -39,7 +43,7 @@
   "color": "#FFDEDE",
   "icon": "cloud",
   "unpublishedAppLayout": {
-    "type": "FLUID"
+    "type": "DESKTOP"
   },
   "publishedAppLayout": {
     "type": "FLUID"

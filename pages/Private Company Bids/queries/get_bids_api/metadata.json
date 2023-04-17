@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "top_5_api",
+    "name": "get_bids_api",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/t/top_5_page"
+        "url": "web:4000/pc/get_bids"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Top 5",
+    "pageId": "Private Company Bids",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -47,7 +47,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Top 5_top_5_api",
+  "id": "Private Company Bids_get_bids_api",
   "deleted": false,
-  "gitSyncId": "643c2d697ded210611adfd63_643d9d94bbf82b00510b88fd"
+  "gitSyncId": "643c2d697ded210611adfd63_643dcf76bbf82b00510b8911"
 }
