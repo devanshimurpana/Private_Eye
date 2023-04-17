@@ -23,10 +23,6 @@
     {
       "id": "Bid Page",
       "isDefault": false
-    },
-    {
-      "id": "Deal Page",
-      "isDefault": false
     }
   ],
   "viewMode": false,
