@@ -15,6 +15,10 @@
     {
       "id": "Private Company 2",
       "isDefault": false
+    },
+    {
+      "id": "Private Company Asks",
+      "isDefault": false
     }
   ],
   "viewMode": false,
