@@ -35,6 +35,10 @@
     {
       "id": "Private Company Bids",
       "isDefault": false
+    },
+    {
+      "id": "Technician Remove Co",
+      "isDefault": false
     }
   ],
   "viewMode": false,
