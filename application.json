@@ -5,7 +5,7 @@
       "isDefault": true
     },
     {
-      "id": "Private Company",
+      "id": "PC",
       "isDefault": false
     },
     {
@@ -13,15 +13,15 @@
       "isDefault": false
     },
     {
-      "id": "Private Company 2",
+      "id": "PC Details",
       "isDefault": false
     },
     {
-      "id": "Private Company Asks",
+      "id": "PC Asks",
       "isDefault": false
     },
     {
-      "id": "Bid Page",
+      "id": "PE Bids",
       "isDefault": false
     },
     {
@@ -33,7 +33,7 @@
       "isDefault": false
     },
     {
-      "id": "Private Company Bids",
+      "id": "PC Bids",
       "isDefault": false
     },
     {

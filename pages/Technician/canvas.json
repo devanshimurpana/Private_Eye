@@ -43,7 +43,7 @@
               "shouldScrollContents": true,
               "animateLoading": true,
               "parentColumnSpace": 17.9375,
-              "leftColumn": 28,
+              "leftColumn": 29,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -298,7 +298,7 @@
               "key": "9mglp2510s",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 47,
+              "rightColumn": 48,
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "at7zqyr09o",
               "minWidth": 450,
@@ -656,8 +656,8 @@
               "searchTags": [
                 "group"
               ],
-              "topRow": 12,
-              "bottomRow": 47,
+              "topRow": 14,
+              "bottomRow": 49,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -1050,10 +1050,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 12,
+              "originalTopRow": 14,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 47,
+              "originalBottomRow": 49,
               "minDynamicHeight": 10
             },
             {
@@ -1423,7 +1423,7 @@
               "shouldScrollContents": true,
               "animateLoading": true,
               "parentColumnSpace": 12.5625,
-              "leftColumn": 28,
+              "leftColumn": 29,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -1678,7 +1678,7 @@
               "key": "9mglp2510s",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 47,
+              "rightColumn": 48,
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "c6jsf0h3c7",
               "minWidth": 450,
@@ -1711,7 +1711,7 @@
               "shouldScrollContents": true,
               "animateLoading": true,
               "parentColumnSpace": 17.9375,
-              "leftColumn": 28,
+              "leftColumn": 29,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -2027,7 +2027,7 @@
               "key": "4ce5xqmjsa",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 47,
+              "rightColumn": 48,
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "1897913jfz",
               "minWidth": 450,
