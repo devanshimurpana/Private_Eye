@@ -9,10 +9,6 @@
       "isDefault": false
     },
     {
-      "id": "PE Firm",
-      "isDefault": false
-    },
-    {
       "id": "PC Details",
       "isDefault": false
     },
@@ -21,7 +17,7 @@
       "isDefault": false
     },
     {
-      "id": "PE Bids",
+      "id": "PC Bids",
       "isDefault": false
     },
     {
@@ -29,15 +25,19 @@
       "isDefault": false
     },
     {
+      "id": "Technician Remove Co",
+      "isDefault": false
+    },
+    {
       "id": "Top 5",
       "isDefault": false
     },
     {
-      "id": "PC Bids",
+      "id": "PE Bids",
       "isDefault": false
     },
     {
-      "id": "Technician Remove Co",
+      "id": "PE list of PC",
       "isDefault": false
     }
   ],
