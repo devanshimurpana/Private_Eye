@@ -5,7 +5,11 @@
       "isDefault": true
     },
     {
-      "id": "PC",
+      "id": "PC Home",
+      "isDefault": false
+    },
+    {
+      "id": "PC Find Co",
       "isDefault": false
     },
     {
@@ -55,7 +59,7 @@
   "color": "#FFDEDE",
   "icon": "cloud",
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
   "publishedAppLayout": {
     "type": "DESKTOP"

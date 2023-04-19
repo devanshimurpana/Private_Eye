@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "PC",
-    "slug": "pc",
+    "name": "PC Find Co",
+    "slug": "pc-find-co",
     "layouts": [
       {
         "viewMode": false,
@@ -700,7 +700,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "PC_get_pe_firms",
+              "id": "PC Find Co_get_pe_firms",
               "name": "get_pe_firms",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -711,7 +711,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "PC",
+        "id": "PC Find Co",
         "deleted": false,
         "policies": [],
         "userPermissions": []
