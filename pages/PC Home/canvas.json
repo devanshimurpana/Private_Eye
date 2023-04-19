@@ -65,7 +65,7 @@
                   "index": 1,
                   "menuItems": {},
                   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-                  "onClick": "{{navigateTo('PC Details', {}, 'SAME_WINDOW')}}"
+                  "onClick": "{{navigateTo('PC New CO', {}, 'SAME_WINDOW')}}"
                 },
                 "groupButton3": {
                   "label": "View Current Bids",
