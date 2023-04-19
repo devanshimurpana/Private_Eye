@@ -324,7 +324,7 @@
                       "showStepArrows": false,
                       "minWidth": 450,
                       "isVisible": true,
-                      "label": "Enter Company ID",
+                      "label": "Enter Deal ID",
                       "version": 2,
                       "parentId": "v8t1yxc103",
                       "labelAlignment": "left",
