@@ -186,23 +186,9 @@
                   "iconName": "add-to-artifact",
                   "onClick": "{{navigateTo('PE Portfolio', {}, 'SAME_WINDOW')}}"
                 },
-                "groupButtonnnixpft317": {
-                  "id": "groupButtonnnixpft317",
-                  "index": 4,
-                  "label": "Back to Landing Page",
-                  "menuItems": {},
-                  "buttonType": "SIMPLE",
-                  "placement": "CENTER",
-                  "widgetId": "iidjj5meot",
-                  "isDisabled": false,
-                  "isVisible": true,
-                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-                  "iconName": "home",
-                  "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW')}}"
-                },
                 "groupButtonbtifxuqb5p": {
                   "id": "groupButtonbtifxuqb5p",
-                  "index": 5,
+                  "index": 4,
                   "label": "Create New PE Firm",
                   "menuItems": {},
                   "buttonType": "SIMPLE",
@@ -213,6 +199,20 @@
                   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                   "iconName": "add-row-bottom",
                   "onClick": "{{navigateTo('PE Create Firm', {}, 'SAME_WINDOW')}}"
+                },
+                "groupButtonnnixpft317": {
+                  "id": "groupButtonnnixpft317",
+                  "index": 5,
+                  "label": "Back to Landing Page",
+                  "menuItems": {},
+                  "buttonType": "SIMPLE",
+                  "placement": "CENTER",
+                  "widgetId": "iidjj5meot",
+                  "isDisabled": false,
+                  "isVisible": true,
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "iconName": "home",
+                  "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW')}}"
                 }
               },
               "type": "BUTTON_GROUP_WIDGET",

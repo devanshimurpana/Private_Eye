@@ -124,7 +124,7 @@
                   "onClick": "{{navigateTo('Technician Company Status', {}, 'SAME_WINDOW')}}"
                 },
                 "groupButton3": {
-                  "label": "View Your Companies",
+                  "label": "View Companies",
                   "iconName": "eye-open",
                   "id": "groupButton3",
                   "buttonType": "SIMPLE",
@@ -239,7 +239,7 @@
                   "key": "groupButtons.groupButton3ih4xlokie.onClick"
                 }
               ],
-              "leftColumn": 6,
+              "leftColumn": 0,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -266,7 +266,7 @@
               "key": "djoxon8zl7",
               "orientation": "horizontal",
               "isDeprecated": false,
-              "rightColumn": 57,
+              "rightColumn": 61,
               "widgetId": "p93qtznfpr",
               "minWidth": 450,
               "isVisible": true,

@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 730,
+          "bottomRow": 380,
           "containerStyle": "none",
           "snapRows": 67,
           "parentRowSpace": 1,
@@ -37,8 +37,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 37,
-              "bottomRow": 41,
+              "topRow": 3,
+              "bottomRow": 7,
               "parentRowSpace": 10,
               "type": "BUTTON_WIDGET",
               "hideCard": false,
@@ -87,7 +87,7 @@
               "borderColor": "#E0DEDE",
               "isVisibleDownload": true,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-              "topRow": 45,
+              "topRow": 9,
               "isSortable": true,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
@@ -174,7 +174,7 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1681937653474,
+              "columnUpdatedAt": 1681936918632,
               "originalBottomRow": 110,
               "defaultSelectedRowIndices": [
                 0
@@ -196,7 +196,7 @@
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 73,
+              "bottomRow": 37,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
