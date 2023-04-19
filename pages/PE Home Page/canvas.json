@@ -211,7 +211,8 @@
                   "isDisabled": false,
                   "isVisible": true,
                   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-                  "iconName": "add-row-bottom"
+                  "iconName": "add-row-bottom",
+                  "onClick": "{{navigateTo('PE Create Firm', {}, 'SAME_WINDOW')}}"
                 }
               },
               "type": "BUTTON_GROUP_WIDGET",
@@ -233,6 +234,9 @@
                 },
                 {
                   "key": "groupButtons.groupButtonnnixpft317.onClick"
+                },
+                {
+                  "key": "groupButtons.groupButtonbtifxuqb5p.onClick"
                 }
               ],
               "leftColumn": 2,
