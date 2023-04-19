@@ -67,6 +67,10 @@
     {
       "id": "PE Portfolio",
       "isDefault": false
+    },
+    {
+      "id": "PE Create Firm",
+      "isDefault": false
     }
   ],
   "viewMode": false,

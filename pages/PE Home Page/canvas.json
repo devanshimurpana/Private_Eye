@@ -34,8 +34,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 14,
-              "bottomRow": 18,
+              "topRow": 17,
+              "bottomRow": 21,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -44,7 +44,7 @@
               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
               "parentColumnSpace": 12.5625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 10,
+              "leftColumn": 2,
               "dynamicBindingPathList": [
                 {
                   "key": "truncateButtonColor"
@@ -61,7 +61,7 @@
               "text": "What would you like to do?",
               "key": "u89grm2ogd",
               "isDeprecated": false,
-              "rightColumn": 36,
+              "rightColumn": 28,
               "textAlign": "LEFT",
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "ympmjgh1ze",
@@ -97,7 +97,7 @@
               "groupButtons": {
                 "groupButton1": {
                   "label": "View, Create, or Update Bids",
-                  "iconName": "comment",
+                  "iconName": "star-empty",
                   "id": "groupButton1",
                   "widgetId": "",
                   "buttonType": "SIMPLE",
@@ -199,6 +199,19 @@
                   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                   "iconName": "home",
                   "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW')}}"
+                },
+                "groupButtonbtifxuqb5p": {
+                  "id": "groupButtonbtifxuqb5p",
+                  "index": 5,
+                  "label": "Create New PE Firm",
+                  "menuItems": {},
+                  "buttonType": "SIMPLE",
+                  "placement": "CENTER",
+                  "widgetId": "2q0qdqbnfs",
+                  "isDisabled": false,
+                  "isVisible": true,
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "iconName": "add-row-bottom"
                 }
               },
               "type": "BUTTON_GROUP_WIDGET",
@@ -222,7 +235,7 @@
                   "key": "groupButtons.groupButtonnnixpft317.onClick"
                 }
               ],
-              "leftColumn": 10,
+              "leftColumn": 2,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -241,12 +254,15 @@
                 },
                 {
                   "key": "groupButtons.groupButtonnnixpft317.buttonColor"
+                },
+                {
+                  "key": "groupButtons.groupButtonbtifxuqb5p.buttonColor"
                 }
               ],
               "key": "djoxon8zl7",
               "orientation": "horizontal",
               "isDeprecated": false,
-              "rightColumn": 58,
+              "rightColumn": 63,
               "widgetId": "b2wjdtp7yb",
               "minWidth": 450,
               "isVisible": true,

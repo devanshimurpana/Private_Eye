@@ -376,7 +376,7 @@
                   "index": 0,
                   "menuItems": {},
                   "buttonColor": "#7e22ce",
-                  "onClick": "{{navigateTo('PC Home', {}, 'SAME_WINDOW')}}"
+                  "onClick": "{{navigateTo('Technician Home page', {}, 'SAME_WINDOW')}}"
                 },
                 "groupButton2": {
                   "label": "Private Company",
