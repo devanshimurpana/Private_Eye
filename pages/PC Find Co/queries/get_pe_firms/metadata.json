@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/pc/pefirm"
+        "url": "web:4000/pc/pe_firm"
       },
       "invalids": [],
       "messages": [],

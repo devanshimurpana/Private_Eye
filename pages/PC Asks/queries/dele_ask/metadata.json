@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/pc/delete_ask"
+        "url": "web:4000/pc/ask"
       },
       "invalids": [],
       "messages": [],

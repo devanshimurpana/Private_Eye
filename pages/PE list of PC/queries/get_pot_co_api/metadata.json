@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/pe/get_potential_companies"
+        "url": "web:4000/pe/company_information"
       },
       "invalids": [],
       "messages": [],

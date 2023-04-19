@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/pe/add_portfolio_company"
+        "url": "web:4000/pe/portfolio"
       },
       "invalids": [],
       "messages": [],
