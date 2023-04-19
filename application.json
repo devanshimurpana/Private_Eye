@@ -39,6 +39,14 @@
     {
       "id": "PE list of PC",
       "isDefault": false
+    },
+    {
+      "id": "PE Compare Co",
+      "isDefault": false
+    },
+    {
+      "id": "PE Portfolio",
+      "isDefault": false
     }
   ],
   "viewMode": false,
