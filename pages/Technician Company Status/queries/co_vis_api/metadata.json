@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Technician",
+    "pageId": "Technician Company Status",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -59,7 +59,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Technician_co_vis_api",
+  "id": "Technician Company Status_co_vis_api",
   "deleted": false,
   "gitSyncId": "643c2d697ded210611adfd63_643ed864868ec03d7c046a37"
 }

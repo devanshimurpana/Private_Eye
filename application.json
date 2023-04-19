@@ -25,7 +25,19 @@
       "isDefault": false
     },
     {
-      "id": "Technician",
+      "id": "Technician Home page",
+      "isDefault": false
+    },
+    {
+      "id": "Tech get ID",
+      "isDefault": false
+    },
+    {
+      "id": "Technician Company Status",
+      "isDefault": false
+    },
+    {
+      "id": "Technician Cos",
       "isDefault": false
     },
     {
@@ -34,6 +46,10 @@
     },
     {
       "id": "Top 5",
+      "isDefault": false
+    },
+    {
+      "id": "PE Home Page",
       "isDefault": false
     },
     {
@@ -62,7 +78,7 @@
     "type": "FLUID"
   },
   "publishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],

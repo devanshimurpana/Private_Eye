@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "tech_info",
+    "name": "update_top_five",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/t/technician"
+        "url": "web:4000/t/top_5"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Technician",
+    "pageId": "Top 5",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -29,9 +29,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{get_tech_info.data}}",
+      "body": "{{update_top_5.data}}",
       "bodyFormData": [],
-      "httpMethod": "POST",
+      "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -52,14 +52,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "get_tech_info.data"
+      "update_top_5.data"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Technician_tech_info",
+  "id": "Top 5_update_top_five",
   "deleted": false,
-  "gitSyncId": "643d873ebbf82b00510b88c6_643d8a15bbf82b00510b88e0"
+  "gitSyncId": "643c2d697ded210611adfd63_643d9ceabbf82b00510b88f8"
 }

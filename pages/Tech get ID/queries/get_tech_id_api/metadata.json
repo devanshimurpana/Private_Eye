@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "deal_feas",
+    "name": "get_tech_id_api",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/t/deal_feasibility"
+        "url": "web:4000/t/technician"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Technician",
+    "pageId": "Tech get ID",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -29,9 +29,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{deal_feasib.data}}",
+      "body": "{{get_tech_info.data}}",
       "bodyFormData": [],
-      "httpMethod": "PUT",
+      "httpMethod": "GET",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -42,7 +42,7 @@
         "apiContentType": "application/json"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -52,14 +52,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "deal_feasib.data"
+      "get_tech_info.data"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Technician_deal_feas",
+  "id": "Tech get ID_get_tech_id_api",
   "deleted": false,
-  "gitSyncId": "643c2d697ded210611adfd63_643d8ec7bbf82b00510b88f3"
+  "gitSyncId": "643c2d697ded210611adfd63_643f1445868ec03d7c046a56"
 }
