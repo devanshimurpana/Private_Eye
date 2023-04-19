@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "PC Find Co",
+    "pageId": "PC New CO",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -59,7 +59,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "PC Find Co_add_new_company",
+  "id": "PC New CO_add_new_company",
   "deleted": false,
   "gitSyncId": "643c2d697ded210611adfd63_643c6875366f253fe63c3e2d"
 }

@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "PC Details",
+    "pageId": "PC New CO",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -59,7 +59,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "PC Details_company_deets",
+  "id": "PC New CO_company_deets",
   "deleted": false,
   "gitSyncId": "643c2d697ded210611adfd63_643c7c37bbf82b00510b8870"
 }
