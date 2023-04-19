@@ -87,7 +87,7 @@
               "borderColor": "#E0DEDE",
               "isVisibleDownload": true,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-              "topRow": 14,
+              "topRow": 11,
               "isSortable": true,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
@@ -106,13 +106,7 @@
                   "key": "tableData"
                 },
                 {
-                  "key": "primaryColumns.technician_first.computedValue"
-                },
-                {
                   "key": "primaryColumns.technician_id.computedValue"
-                },
-                {
-                  "key": "primaryColumns.technician_last.computedValue"
                 }
               ],
               "needsHeightForContent": true,
@@ -150,20 +144,18 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1681927659647,
+              "columnUpdatedAt": 1681930297354,
               "defaultSelectedRowIndices": [
                 0
               ],
               "widgetName": "find_tech_id",
               "defaultPageSize": 0,
               "columnOrder": [
-                "technician_first",
-                "technician_id",
-                "technician_last"
+                "technician_id"
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 27,
+              "bottomRow": 24,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
@@ -175,35 +167,6 @@
               "dynamicTriggerPathList": [],
               "borderWidth": "1",
               "primaryColumns": {
-                "technician_first": {
-                  "allowCellWrapping": false,
-                  "index": 0,
-                  "width": 150,
-                  "originalId": "technician_first",
-                  "id": "technician_first",
-                  "alias": "technician_first",
-                  "horizontalAlignment": "LEFT",
-                  "verticalAlignment": "CENTER",
-                  "columnType": "text",
-                  "textColor": "",
-                  "textSize": "0.875rem",
-                  "fontStyle": "",
-                  "enableFilter": true,
-                  "enableSort": true,
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "isCellEditable": false,
-                  "isEditable": false,
-                  "isCellVisible": true,
-                  "isDerived": false,
-                  "label": "technician_first",
-                  "isSaveVisible": true,
-                  "isDiscardVisible": true,
-                  "computedValue": "{{find_tech_id.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"technician_first\"]))}}",
-                  "sticky": "",
-                  "validation": {},
-                  "cellBackground": ""
-                },
                 "technician_id": {
                   "allowCellWrapping": false,
                   "index": 1,
@@ -232,45 +195,16 @@
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
-                },
-                "technician_last": {
-                  "allowCellWrapping": false,
-                  "index": 2,
-                  "width": 150,
-                  "originalId": "technician_last",
-                  "id": "technician_last",
-                  "alias": "technician_last",
-                  "horizontalAlignment": "LEFT",
-                  "verticalAlignment": "CENTER",
-                  "columnType": "text",
-                  "textColor": "",
-                  "textSize": "0.875rem",
-                  "fontStyle": "",
-                  "enableFilter": true,
-                  "enableSort": true,
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "isCellEditable": false,
-                  "isEditable": false,
-                  "isCellVisible": true,
-                  "isDerived": false,
-                  "label": "technician_last",
-                  "isSaveVisible": true,
-                  "isDiscardVisible": true,
-                  "computedValue": "{{find_tech_id.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"technician_last\"]))}}",
-                  "sticky": "",
-                  "validation": {},
-                  "cellBackground": ""
                 }
               },
               "key": "uj25p5fo6p",
               "canFreezeColumn": true,
               "isDeprecated": false,
-              "rightColumn": 64,
+              "rightColumn": 57,
               "textSize": "0.875rem",
               "widgetId": "19h3uqsw89",
               "minWidth": 450,
-              "tableData": "{{get_tech_id_api.data}}",
+              "tableData": "{{tech_info.data}}",
               "label": "Data",
               "searchKey": "",
               "parentId": "0",
@@ -373,15 +307,15 @@
                       "originalTopRow": 1,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 7,
+                      "originalBottomRow": 5,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
                     },
                     {
-                      "resetFormOnClick": true,
+                      "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "Button3",
-                      "onClick": "{{get_tech_id_api.run()}}",
+                      "onClick": "{{tech_info.run()}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -423,10 +357,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "hug",
-                      "originalTopRow": 26,
+                      "originalTopRow": 24,
                       "disabledWhenInvalid": true,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 30,
+                      "originalBottomRow": 28,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     },
@@ -470,16 +404,16 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "hug",
-                      "originalTopRow": 26,
+                      "originalTopRow": 24,
                       "disabledWhenInvalid": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 30,
+                      "originalBottomRow": 28,
                       "buttonVariant": "SECONDARY",
                       "placement": "CENTER"
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "last_name",
+                      "widgetName": "t_last",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -530,17 +464,17 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 8,
+                      "originalTopRow": 6,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 15,
+                      "originalBottomRow": 13,
                       "iconAlign": "left",
                       "defaultText": "",
                       "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "first_name",
+                      "widgetName": "t_first",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -591,10 +525,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 17,
+                      "originalTopRow": 15,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 24,
+                      "originalBottomRow": 22,
                       "iconAlign": "left",
                       "defaultText": "",
                       "minDynamicHeight": 4
@@ -641,8 +575,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Tech get ID_get_tech_id_api",
-              "name": "get_tech_id_api",
+              "id": "Tech get ID_tech_info",
+              "name": "tech_info",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
